@@ -1,0 +1,19 @@
+.mainContainer{
+    border:solid black;
+    display:flex;
+    margin:25px;
+    justify-content: space-evenly;
+    height:80vh;
+    padding:15px;
+}
+.leftContainer{
+    border:solid red;
+    width:35%;
+    padding:15px;
+    margin-right:10px;
+}
+.rightContainer{
+    border:solid yellow;
+    width:65%;
+    padding:15px;
+}
