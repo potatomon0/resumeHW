@@ -35,13 +35,18 @@ hr{
 }
 .info{
     /* border: solid green; */
-    margin-top:25px;
-    height:20px;
+    margin-top:10px;
+    height:30px;
     display:flex;
     justify-content: space-between;
+    /* text-decoration: bisque underline; */
+    padding-bottom:3px;
+}
+.location{
+    padding-bottom:10px;
 }
 .emailAddress{
-    padding-top:10px;
+    padding-top:15px;
 }
 .Summary{
     /* border:solid pink; */
