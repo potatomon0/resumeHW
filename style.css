@@ -3,7 +3,7 @@ hr{
     background-color: bisque;
 }
 .mainContainer{
-    border:solid black;
+    border:dotted white;
     background-color:bisque;
     display:flex;
     margin:25px;
@@ -25,14 +25,18 @@ hr{
 }
 .pic{
     height:260px;
+    border-radius:50%;
+    margin-top:7px;
+    border: solid bisque;
 }
 .contactInfo{
     /* border:solid pink; */
-    margin-bottom:15px;
+    margin-bottom:30px;
 }
 .info{
     /* border: solid green; */
-    height:30px;
+    margin-top:25px;
+    height:20px;
     display:flex;
     justify-content: space-between;
 }
@@ -42,13 +46,21 @@ hr{
 .Summary{
     /* border:solid pink; */
     margin-bottom:15px;
+    font-size:25px;
+    padding-top:30px;
+}
+.summary{
+    padding-bottom:20px;
 }
 .Skills{
     /* border:solid pink; */
+    padding-top:30px;
     margin-bottom:15px;
+    font-size:25px;
+    padding-top:30px;
 }
 .rightContainer{
-    border:solid yellow;
+    /* border:solid yellow; */
     background-image: url("https://e0.pxfuel.com/wallpapers/329/683/desktop-wallpaper-textured-background-blue-background-dark-blue-blue-colour-royal-blue-texture-thumbnail.jpg");
     background-size: 800px 1000px;
     width:65%;
@@ -56,6 +68,34 @@ hr{
     color:white;
 }
 .name{
-    border:solid red;
+    /* border:solid red; */
+    font-size:40px;
+    text-align:center;
+    font-size:65px;
 }
-
+.experience{
+    /* border:solid red; */
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:25px;
+}
+.exp{
+    padding-bottom:30px;
+}
+.education{
+    /* border:solid red; */
+    font-size:25px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.edu{
+    padding-bottom:30px;
+}
+.mugShot{
+    height:330px;
+    width:330px;
+    margin-left:75px;
+    border:solid bisque;
+    border-radius:8px;
+    margin-top:10px
+}
