@@ -1,19 +1,61 @@
+hr{
+    height: 5px;
+    background-color: bisque;
+}
 .mainContainer{
     border:solid black;
+    background-color:bisque;
     display:flex;
     margin:25px;
-    justify-content: space-evenly;
     height:80vh;
     padding:15px;
 }
 .leftContainer{
-    border:solid red;
+    /* border:solid red; */
+    color:white;
     width:35%;
     padding:15px;
     margin-right:10px;
+    background-image: url("https://e0.pxfuel.com/wallpapers/329/683/desktop-wallpaper-textured-background-blue-background-dark-blue-blue-colour-royal-blue-texture-thumbnail.jpg" );
+    background-size:800px 1000px;
+}
+.profilePic{
+    /* border:solid pink; */
+    margin-bottom:15px;
+}
+.pic{
+    height:260px;
+}
+.contactInfo{
+    /* border:solid pink; */
+    margin-bottom:15px;
+}
+.info{
+    /* border: solid green; */
+    height:30px;
+    display:flex;
+    justify-content: space-between;
+}
+.emailAddress{
+    padding-top:10px;
+}
+.Summary{
+    /* border:solid pink; */
+    margin-bottom:15px;
+}
+.Skills{
+    /* border:solid pink; */
+    margin-bottom:15px;
 }
 .rightContainer{
     border:solid yellow;
+    background-image: url("https://e0.pxfuel.com/wallpapers/329/683/desktop-wallpaper-textured-background-blue-background-dark-blue-blue-colour-royal-blue-texture-thumbnail.jpg");
+    background-size: 800px 1000px;
     width:65%;
     padding:15px;
+    color:white;
 }
+.name{
+    border:solid red;
+}
+
